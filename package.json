@@ -4,11 +4,14 @@
   "description": "Convert HSL colors to RGB colors in hex format",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm ls && npm test",
     "test": "tap --cov test"
   },
   "author": "HesslerB",
   "license": "ISC",
   "dependencies": {
+    "clockface": "^1.1.1",
+    "debug": "^4.2.0",
     "hsl-to-rgb-for-reals": "^1.1.1",
     "lint": "^0.7.0"
   },
