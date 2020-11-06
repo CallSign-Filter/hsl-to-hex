@@ -10,7 +10,6 @@
   "author": "HesslerB",
   "license": "ISC",
   "dependencies": {
-    "clockface": "^1.1.1",
     "debug": "^4.2.0",
     "hsl-to-rgb-for-reals": "^1.1.1",
     "lint": "^0.7.0"
