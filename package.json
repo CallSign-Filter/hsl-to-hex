@@ -4,8 +4,9 @@
   "description": "Convert HSL colors to RGB colors in hex format",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm ls && npm test",
-    "test": "tap --cov test"
+    "check": "npm ls && npm test",
+    "test": "tap --cov test",
+    "prepublish": "npm run check && ./publish-dep.sh"
   },
   "author": "HesslerB",
   "license": "ISC",
