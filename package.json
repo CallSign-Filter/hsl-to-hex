@@ -1,0 +1,21 @@
+{
+  "name": "@usmchessler/hsl-to-hex",
+  "version": "1.0.0",
+  "description": "Convert HSL colors to RGB colors in hex format",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test"
+  },
+  "author": "HesslerB",
+  "license": "ISC",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.1",
+    "lint": "^0.7.0"
+  },
+  "devDependencies": {
+    "tap": "^14.10.8"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
